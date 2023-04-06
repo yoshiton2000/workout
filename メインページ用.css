@@ -1,0 +1,198 @@
+body {
+    font-family:'Noto Sans JP',sans-serif;
+    background-color:#ffffff;
+    
+ }
+ 
+ .mein{
+    width: 800px;
+    background-color: #ffffff;
+    margin:0%;
+    margin-right: auto;
+    margin-left: auto;
+   
+ }
+
+ 
+
+ article {
+   display:flex;/*サイドバーとメインコンテンツを横並びにする                指定をした*/
+ }
+
+.side{
+        background-color:rgb(255, 255, 255);
+        width:500px;
+
+}
+
+.migi{
+  background-color: rgb(255, 255, 255);
+  float: right;
+  margin: auto;
+  width: 500px;
+}
+
+
+h1{
+font-size: 40px;
+font-weight: bolder;
+
+}
+
+.redfont{
+    font-size: 40px;
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+}
+
+
+
+.Subheading {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-size: 30px;
+    color: #ffffff;
+    background: #8b9aff;/*背景色*/
+    border-top: solid 6px #5a7ffa;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);/*影*/
+  }
+  .Subheading p {
+    margin: 0; 
+    padding: 0;
+  }
+
+  .sideSubheading {
+    padding: 0.3em 0.7em;
+    margin: 0.6em 0;
+    font-size: 24px;
+    color: #ffffff;
+    background: #8b9aff;/*背景色*/
+    border-top: solid 6px #5a7ffa;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);/*影*/
+  }
+  .sideSubheading p {
+    margin: 0; 
+    padding: 0;
+  }
+
+
+
+.rightfont{
+  font-size: 14px;
+  font-weight: bold;
+  color: blue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+  .big{
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 10px; 
+    margin-bottom: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .sidefont{
+    font-size: 26px;
+    font-weight: lighter;
+    margin: 5px; 
+    margin-bottom: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+
+  .top{
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 0.5em;
+    background-color: rgb(43, 245, 93);
+   
+   
+  }
+
+  .topred{
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 0.5em;
+    background-color: rgb(43, 245, 93);
+   
+  }
+
+  mark{
+    background:linear-gradient(transparent 60%, yellow 0%);
+    
+  }
+
+  .big2{
+    font-size: 26px;
+    font-weight: bolder;
+    color: red;
+  }
+  .big3{
+    font-size: 22px;
+    font-weight: bolder;
+    color: red;
+  }
+
+  .big4{
+    font-size: 26px;
+    font-weight: 900;
+    color: red;
+  }
+
+  .midashi{
+    font-size: 30px;
+    font-weight: 900;
+    background-color: rgb(255, 116, 139);
+    padding: 0.3em 0.7em;
+    margin: 0.6em 0;
+    color: rgb(255, 255, 255);
+  }
+
+
+/*コピー*/
+
+ul.ten{
+    position: relative;
+    padding: 15px 15px 15px 30px;
+    font: 20px/1.6 'arial narrow', sans-serif;
+    border: solid 2px #adcce8;
+    border-radius:8px;
+    color: #448ccb;
+    width:800px;
+    background: #fff;
+  }
+  ul.ten:before{
+    content: "効果";  /* 好きな文字を記述 */
+    position: absolute;
+    display: block;
+    top: -15px;
+    left: 20px;
+    background: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 10px;
+  }
+  ul.ten li{
+    font-weight: bold;
+  }
+
+  .blockimg{
+    display: block;
+    margin-left: 500px;
+    margin-right: auto;
+    margin-bottom: 500px;
+    float: left;
+
+  }
+
+  .pink{
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 0.5em;
+    background-color:pink;
+   
+  }
+
+
